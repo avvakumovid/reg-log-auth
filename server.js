@@ -18,9 +18,9 @@
 // }
 // start()
 import {Router} from 'express';
-import AuthController from '../controller/authController.js'
+import AuthController from './src/controller/authController.js'
 import {check} from 'express-validator';
-import authMiddleware from '../middleware/authMiddleware.js';
+import authMiddleware from './src/middleware/authMiddleware.js';
 
 const router = new Router()
 
